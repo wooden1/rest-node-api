@@ -1,0 +1,25 @@
+{
+  "name": "rest-node-api",
+  "version": "1.0.0",
+  "description": "Building a RESTful node.js API\r from scotch.io tutorial.",
+  "main": "server.js",
+  "scripts": {
+    "node": "server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wooden1/rest-node-api.git"
+  },
+  "author": "lynnwood ray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wooden1/rest-node-api/issues"
+  },
+  "homepage": "https://github.com/wooden1/rest-node-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2"
+  }
+}
